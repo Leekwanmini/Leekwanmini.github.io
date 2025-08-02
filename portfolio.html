@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+            <header>
+                <nav class="navbar navbar-expand-lg custom-navbar">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="portfolio.html">Works</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="aboutMe.html">About Me</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="portfolio.html">Works</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+        <main>
+          <div id="BGPhotos" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/jasmin-schreiber-W3iCaxXtZZk-unsplash.jpg" class="d-block w-100 bg-img" alt="bg1">
+              </div>
+              <div class="carousel-item">
+                <img src="images/vollume-zfuTftA8ts0-unsplash.jpg" class="d-block w-100 bg-img" alt="bg2">
+              </div>
+              <div class="carousel-item">
+                <img src="images/a-friend-xE1suFa2o5I-unsplash.jpg" class="d-block w-100 bg-img" alt="bg3">
+              </div>
+            </div>
+          </div>
+            <section>
+              <h2 class="listenHeading">Listen to my demo files!</h2>
+              <div class="d-flex justify-content-center gap-4 flex-wrap">
+                <div class="card" style="width: 15rem;">
+                    <img src="images/demo.png" class="card-img-top" alt="demoPhoto">
+                    <div class="card-body">
+                      <h5 class="card-title">DEMO1.mp3</h5>
+                      <p class="card-text">Genre: UK Garage</p>
+                      <a href="demo1.html" class="btn btn-primary" target="_blank">Listen</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem;">
+                    <img src="images/demo.png" class="card-img-top" alt="demoPhoto">
+                    <div class="card-body">
+                      <h5 class="card-title">DEMO2.mp3</h5>
+                      <p class="card-text">Genre: Mixed Bass</p>
+                      <a href="demo2.html" class="btn btn-primary" target="_blank">Listen</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem;">
+                    <img src="images/demo.png" class="card-img-top" alt="demoPhoto">
+                    <div class="card-body">
+                      <h5 class="card-title">DEMO3.mp3</h5>
+                      <p class="card-text">Genre: UK Bass</p>
+                      <a href="demo3.html" class="btn btn-primary" target="_blank">Listen</a>
+                    </div>
+                </div>
+              </div>
+            </section>
+            <section class="workingprocess">
+              <h2>Working process</h2>
+              <div id="process" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#process" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#process" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#process" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#process" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/workingprocess1.png" class="d-block w-100" alt="wp1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/workingprocess2.png" class="d-block w-100" alt="wp2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/workingprocess3.png" class="d-block w-100" alt="wp3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/workingprocess4.png" class="d-block w-100" alt="wp4">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#process" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#process" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </section>
+            <footer>
+              <p>&copy; 2025 Kwan min Lee.</p>
+            </footer>
+        </main>
+    </body>
+</html>

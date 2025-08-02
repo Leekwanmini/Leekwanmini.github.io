@@ -1,0 +1,95 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+}
+
+#BGPhotos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+  
+
+.bg-img {
+    object-fit: cover;
+    height: 100vh;
+}
+
+section{
+    color:antiquewhite;
+    text-align: center;
+}
+
+
+.custom-navbar {
+    background-color: rgba(248, 249, 250, 0.1);
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(5px); 
+}
+  
+.custom-navbar:hover {
+    background-color: rgba(248, 249, 250, 0.95);
+}
+
+.hire{
+    color: black;
+}
+
+.container{
+    background-color: rgba(248, 249, 250, 0.3);
+    color: antiquewhite;
+    width: 100%;
+    margin-top: 80px;
+    padding: 40px;
+}
+
+.container h5{
+    margin-bottom: 60px;
+}
+
+.aboutMe{
+    margin-top: 30px;
+}
+
+.card {
+    margin-bottom: 1em;;
+}
+
+.progress-label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.listenHeading{
+    margin: 20px;
+}
+
+.workingprocess{
+    margin: 30px;
+}
+
+.carousel{
+    margin-top: 20px;
+}
+
+footer p {
+    color:antiquewhite;
+    text-align: center;
+}
+
+footer{
+    margin: 40px;
+}
+
+label.CTLabel {
+    font-size: 0.8em;
+}
