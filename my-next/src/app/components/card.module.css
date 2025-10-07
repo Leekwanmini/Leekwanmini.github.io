@@ -1,0 +1,105 @@
+.artistCard {
+  border: 1px solid white;
+  width: 300px;
+  min-height: 450px;
+  margin-top: 16px;
+  padding: 10px;
+}
+
+.artistImage {
+  height: 300px;
+  width: 280px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.artistName {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 8px;
+}
+
+.artistGenre {
+  color: #888;
+}
+
+.artistPopularity {
+  margin-top: 4px;
+}
+
+.artistBio {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #1a1a1a;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.favoriteButton {
+  margin-top: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.favoriteButton:hover {
+  background-color: #0051cc;
+}
+
+.bioButton {
+  margin-top: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.bioButton:hover {
+  background-color: lightblue;
+}
+
+.favoriteButton {
+  margin-top: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.heartIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2rem;
+  animation: heartbeat 0.6s ease-in-out;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.artistCard {
+  position: relative;
+  border: 1px solid white;
+  width: 300px;
+  min-height: 450px;
+  margin-top: 16px;
+  padding: 10px;
+}
